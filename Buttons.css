@@ -1,0 +1,31 @@
+.navbar-brand {
+  display: block; /* Ensure it can grow */
+  height: auto; /* Allow it to resize */
+}
+
+.adjustable-image {
+  height: 40px !important; /* Adjust as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+/* Style for the "Register" button */
+.register-btn {
+    background-color: #33ff19;
+}
+
+/* Style for the "Log In" button */
+.login-btn {
+    border-radius: 30px !important;
+    border: 2px solid #33ff19 !important;
+    background-color: transparent !important;
+    color: #33ff19 !important;
+}
+a.button.custom-style {
+    border: 2px solid #33ff19 !important; /* Border color */
+    color: #33ff19 !important; /* Text color */
+    text-decoration: none; /* Optional: Remove underline */
+    padding: 10px 20px; /* Optional: Add padding */
+    display: inline-block; /* Optional: Align properly */
+}
+.panel-title small {
+    border: 2px solid #33ff19 !important;
+}
